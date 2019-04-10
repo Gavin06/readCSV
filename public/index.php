@@ -2,10 +2,7 @@
 
 main::start("read.csv");
 
-
-
 class main {
-
 
 
     static public function start($filename) {
@@ -13,14 +10,14 @@ class main {
 
 
         $records = csv::getRecords($filename);
-$record = recordFactory::create();
 
-        print_r($record);
 
+        print_r($records);
 
     }
 
 }
+
 
 class csv {
 
@@ -31,7 +28,7 @@ class csv {
 
         while (!feof($file)) {
             $record = fgetcsv($file);
-            $records[] = record;
+            $records[] = recordFactory::create();
         }
         fclose($file);
         return $records;
@@ -39,6 +36,8 @@ class csv {
     }
 
 }
+
+
 
 class record{}
 
