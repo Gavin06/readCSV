@@ -1,6 +1,6 @@
-First,Last,Age,Employed,City,State,Children,Month
-Gavin,James,32,Yes,Chicago,IL,no,June
-Kim,Parker,44,Yes,Dallas,TX,yes,July
-Joe,Brown,19,No,Boston,MA,no,December
-Nickey,James,55,Yes,Milwaukee,WI,yes,April
-Gavin,Bond,34,No,Atlanta,GA,Yes,May
+First,Last,Age,Employed
+Gavin,James,32,Yes
+Kim,Parker,44,Yes
+Joe,Brown,19,No
+Nickey,James,55,Yes
+Gavin,Bond,34,No
